@@ -6,8 +6,11 @@
 
 html,
 body {
-  max-width: 412px;
-  width:412px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 

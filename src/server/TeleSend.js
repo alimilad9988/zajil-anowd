@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import axios from 'axios';
 
 
 export const TeleSned = () => {
@@ -10,13 +10,13 @@ export const TeleSned = () => {
           color: "white",
           embeds: [
             {
-              title: "مدونة زاجل",
+              title: " مدونة زاجل ",
               description: des,
            },
           ],
     };
             
-        await Axios.post("https://discord.com/api/webhooks/1439616505452040292/ygU66TKzZ68TIc2F9esRTGxxZ_QbBkejzaSqzlfxWGGOPBor2Z-lk--yiZbDZWMyGr9J",body)
+        await axios.post("https://discord.com/api/webhooks/1439616505452040292/ygU66TKzZ68TIc2F9esRTGxxZ_QbBkejzaSqzlfxWGGOPBor2Z-lk--yiZbDZWMyGr9J",body)
              
     }
   return {

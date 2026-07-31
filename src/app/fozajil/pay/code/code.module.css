@@ -1,10 +1,9 @@
 .contect{
-    background-image: url('../../../../../../../../public/background-track.webp');
+    background-image: url('../../../../../public/background-track.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height:70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-self: flex-start;
+    
     margin-top: 25px;
 }
 .contect form label{
@@ -53,7 +52,7 @@
     margin: 0px 10px;
 }
 .contect form button{
-    width: 80%;
+    width: 70%;
     height: 30px;
     background-color: rgb(253, 216, 6);
     color: black;

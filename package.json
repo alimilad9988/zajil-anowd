@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build ",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@vercel/analytics": "^1.1.1",
-    "axios": "^1.7.2",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "dotenv-flow": "^4.1.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

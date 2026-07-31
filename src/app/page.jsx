@@ -28,17 +28,7 @@ export default function Home() {
         <div>
         <h3>حلول لوجستية سهلة وموثوقة وبأسعار تنافسية</h3>
         <p>اكتشف كيف يمكننا مساعدتك على تنمية أعمالك وزيادة أرباحك من خلال حلولنا الاحترافية وشبكتنا اللوجستية العالمية</p>
-        <form >
-            <input type="number" onChange={(e) => setTrack(e.target.value)}  placeholder='ادخل رقم تتبع الشحنة' required/>
-          {isTrue&&(
-           <Link  href={{
-            pathname:"/fozajil",
-            query:{name:track},
-           }}>تتبع الشحنة</Link>)
-
-          }
-
-        </form>
+        <a href='/fozajil'>اطلب الخدمة الان</a>
         </div>
       
       </div>
@@ -47,7 +37,7 @@ export default function Home() {
         <div>
           <Image
             src={img1}
-            width={412}
+            style={{width:"100%"}}
             height={250}
           />
           <p>نقل البضائع من مكان لآخر ومن دولة إلى أخرى إما عن طريق الشحن البحري عبر الموانئ بواسطة السفن أو الشحن الجوي عبر المطارات بواسطة الطائرات أو الشحن البري بواسطة الشاحنات والقطارات</p>
@@ -55,7 +45,7 @@ export default function Home() {
         <div>
         <Image
             src={img2}
-            width={412}
+            style={{width:"100%"}}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟
@@ -64,7 +54,7 @@ export default function Home() {
         <div>
         <Image
             src={img3}
-            width={412}
+            style={{width:"100%"}}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟
@@ -73,7 +63,7 @@ export default function Home() {
         <div>
         <Image
             src={img4}
-            width={412}
+            style={{width:"100%"}}
             height={250}
           />
           <p>هل تبحث عن شبكة توصيل سريعة تجمع بين جودة الخدمة وكفاءة الخبير؟
